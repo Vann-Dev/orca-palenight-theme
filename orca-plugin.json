@@ -1,0 +1,57 @@
+{
+  "manifestVersion": 2,
+  "id": "palenight-theme",
+  "name": "Palenight Theme for Orca",
+  "version": "0.1.0",
+  "description": "Material Palenight for Orca: the Palenight, Palenight Italic and Palenight Operator variants with matching code and terminal colors.",
+  "license": "MIT",
+  "repository": "https://github.com/Vann-Dev/orca-palenight-theme",
+  "author": {
+    "name": "Vann"
+  },
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "themes": [
+      {
+        "id": "palenight",
+        "title": "Palenight",
+        "path": "themes/palenight.json"
+      },
+      {
+        "id": "palenight-italic",
+        "title": "Palenight Italic",
+        "path": "themes/palenight-italic.json"
+      },
+      {
+        "id": "palenight-operator",
+        "title": "Palenight Operator",
+        "path": "themes/palenight-operator.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "palenight",
+        "title": "Palenight",
+        "path": "terminal/palenight.json"
+      },
+      {
+        "id": "palenight-italic",
+        "title": "Palenight Italic",
+        "path": "terminal/palenight-italic.json"
+      },
+      {
+        "id": "palenight-operator",
+        "title": "Palenight Operator",
+        "path": "terminal/palenight-operator.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "cover": {
+    "path": "docs/cover.png",
+    "alt": "Palenight palette preview with workspace sidebar, code editor, terminal and agent chat"
+  }
+}
