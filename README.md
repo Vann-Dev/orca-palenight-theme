@@ -1,6 +1,6 @@
 # Palenight Theme for Orca
 
-Material Palenight for Orca. This plugin ports the three variants of [Material Palenight](https://github.com/astrit/vscode-material-palenight-theme) to Orca app themes and terminal themes, using the same palette and code colors as the VS Code theme.
+Material Palenight for Orca. This plugin ports the four variants of [Material Palenight](https://github.com/astrit/vscode-material-palenight-theme) to Orca app themes and terminal themes, using the same palette and code colors as the VS Code theme.
 
 ![Palenight palette preview](docs/preview.png)
 
@@ -11,10 +11,11 @@ Material Palenight for Orca. This plugin ports the three variants of [Material P
 | Palenight | Palenight | Palenight |
 | Palenight Italic | Palenight Italic | Palenight Italic |
 | Palenight Operator | Palenight Operator | Palenight Operator |
+| Palenight (Mild Contrast) | Palenight (Mild Contrast) | Palenight (Mild Contrast) |
 
-All three use the Palenight workbench colors: #292D3E canvas, #282C3D sidebar, #232635 workspace sidebar, #7E57C2 primary, and the syntax palette of #C792EA keywords, #C3E88D strings, #FFCB6B types and #82AAFF functions. The preview above is a rendering of those tokens; pick the theme in Orca to see it on the real interface.
+All four use the Palenight workbench colors: #292D3E canvas, #282C3D sidebar, #232635 workspace sidebar, #7E57C2 primary, and the syntax palette of #C792EA keywords, #C3E88D strings, #FFCB6B types and #82AAFF functions. The preview above is a rendering of those tokens; pick the theme in Orca to see it on the real interface.
 
-Palenight Italic italicises the scopes the VS Code Italic variant italicises. Palenight Operator applies the scope list from the Operator variant. Both keep the single-scope selectors Orca reads and stay inside Orca limit of 16 KiB per theme file.
+Palenight Italic italicises the scopes the VS Code Italic variant italicises. Palenight Operator applies the scope list from the Operator variant. Both keep the single-scope selectors Orca reads and stay inside Orca limit of 16 KiB per theme file. Palenight (Mild Contrast) keeps the editor, syntax and terminal colors of Palenight and deepens only the workbench surfaces, as the VS Code variant does.
 
 ## Install
 
